@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi primer calculadora</title>
+	<meta charset="UTF-8">
+       <script type = "text/javascript" src="cal.js"> </script>
+</head>
+<body>
+       <form>
+       <table>
+               <tr>
+           <h1>
+              Calculadora
+           </h1>
+           </tr>
+               <tr>
+                   <td>
+                       <label for="t1">PrimerNumero</label>
+                   </td>
+                     <td>
+                         <input type="text" id ="num1">
+                   </td>
+               </tr>
+              	 <tr>
+                   <tr>
+                   <td>
+                      <label for="t1">SegundoNumero</label>
+                   </td>
+                     <td>
+                         <input type="text" id ="num2">
+                   </td>
+               </tr>    
+                   <tr>
+                   <td>
+                   </td>
+                   </tr>
+                   </table>
+                 <input type="submit" value="+" onclick ="return suma()">
+        		 <input type="submit" value="-" onclick ="return resta()">
+         		 <input type="submit" value="*" onclick ="return multiplicacion()">
+          		 <input type="submit" value="%" onclick ="return divicion()">
+          		 <tr>
+                   <td>
+                       <label for="t1">Resultado</label>
+                  	 </td>
+              		 </tr>
+          		 <input type="text" id ="resul3" disabled ="false">
+          		 </form>
+          		 </body>
+		         </html>
+        
